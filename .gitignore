@@ -1,0 +1,9 @@
+# ignore all logs
+*.log
+# ignore content of all dev folder
+**/dev
+# ignore node_module/.vagrant
+node_module/
+.vagrant/
+# ignore .env
+.env
