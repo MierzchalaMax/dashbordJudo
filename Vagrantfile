@@ -76,7 +76,6 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", path: "script/phpmyadmin.sh"
   config.vm.provision "shell", path: "script/composer.sh"
   config.vm.provision "shell", path: "script/node.sh"
-  config.vm.provision "shell", path: "script/apacherootfolder.sh"
   #config.vm.provision "shell", path: "script/yarn.sh"
   #config.vm.provision "shell", path: "script/sass.sh"
 
